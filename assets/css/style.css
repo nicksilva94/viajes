@@ -87,18 +87,75 @@ footer {
 
 footer .navbar-brand {
     float: left;
-    font-size: 30px;
+    font-size: 1rem;
     vertical-align: middle;
     padding: 25px 10px;
     
 }
 
 footer .navbar-brand img{
-    width: 30px;
-    height: 30px;
+    vertical-align: middle;
+    padding-top: 0px;
 }
 
 footer .rrss i{
     padding: 10px;
 
+}
+
+.texto {
+    font-size: 16px;
+    transition: font-size 0.5s ease;
+}
+
+.texto.grande {
+    font-size: 24px;
+}
+
+.brand-hover {
+    font-size: 1.5rem;
+    font-family: "Poetsen One", sans-serif;
+    transition: font-size 0.5s ease;
+}
+
+.brand-hover:hover {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1.7rem;
+}
+
+.brand-hover img {
+    width: 30px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.brand-hover:hover img {
+    transform: scale(1.5);
+}
+
+.footer-brand-hover {
+    font-size: 1.5rem;
+    transition: font-size 0.3s ease, transform 0.3s ease;
+}
+
+.footer-brand-hover img {
+    width: 30px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.footer-brand-hover:hover {
+    font-size: 1.7rem;
+}
+
+.footer-brand-hover:hover img {
+    transform: scale(1.5);
+}
+
+.social-icon {
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
 }

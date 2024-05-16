@@ -17,8 +17,8 @@
         <header>
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    <a class="navbar-brand brand-hover" href="#">
+                        <img src="./assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" id="logo">
                         VIAJES CHILE
                     </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +69,7 @@
         <div class="quienes-somos">
             <h2>¿QUIÉNES SOMOS?</h2>
             <hr/>
-            <div class="container text-center" id="quienes-somos-texto">
+            <div class="container text-center" id="quienes-somos-texto" style="padding-top: 40px;">
                 <div class="row">
 
                     <div class="col">
@@ -97,7 +97,7 @@
             <h2>DESTACADOS</h2>
             <hr/>
 
-            <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4" style="padding-top: 40px;">
                 <div class="col">
                   <div class="card h-100">
                     <img src="./assets/img/card1.jpg" class="card-img-top" alt="tdpaine" style="max-height: 440px;">
@@ -138,46 +138,48 @@
 
         </div>
 
-        <div class="contacto">
+        <div class="contacto" style="padding-top: 40px;">
           <h2>CONTACTO</h2>
           <hr/>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <div class="formulario" style="padding-top: 40px;">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu nombre :D">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje aqui!"></textarea>
+            </div>
+            <button type="button" class="btn btn-info" style="color: white;">ENVIAR</button>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu nombre :D">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Asunto</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje aqui!"></textarea>
-          </div>
-          <button type="button" class="btn btn-info" style="color: white;">ENVIAR</button>
-          
 
         </div>
 
 
         <footer>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand footer-brand-hover" href="#">
             <img src="./assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
             VIAJES CHILE
           </a>
           <div class="rrss">
             
-            <i href="#" class="fa-brands fa-square-github fa-2x"></i>
-            <i href="#" class="fa-brands fa-linkedin fa-2x"></i>
-            <i href="#" class="fa-brands fa-square-twitter fa-2x"></i>
-            <i href="#" class="fa-brands fa-square-facebook fa-2x"></i>
+            <i id="logo1" href="#" class="fa-brands fa-square-github fa-2x social-icon"></i>
+            <i id="logo2" href="#" class="fa-brands fa-linkedin fa-2x social-icon"></i>
+            <i id="logo3" href="#" class="fa-brands fa-square-twitter fa-2x social-icon"></i>
+            <i id="logo4" href="#" class="fa-brands fa-square-facebook fa-2x social-icon"></i>
 
           </div>
 
         </footer>
+        <script src="./assets/js/function.js"> </script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     </body>
