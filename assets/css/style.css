@@ -57,3 +57,8 @@ i {
     background-color: black;
     padding: 30px;
 }
+
+div.col > div.card {
+    background-color: #04D4F0;
+    color: white;
+}
