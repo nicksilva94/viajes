@@ -4,6 +4,13 @@
     font-style: normal;
   }
 
+.raleway-body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
 .navbar-brand {
     font-family: "Poetsen One", sans-serif;
 }
@@ -13,3 +20,40 @@
 
 }
 
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px white;
+  }
+
+.quienes-somos {
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+
+#quienes-somos-texto {
+    padding-top: 25px;
+}
+
+i {
+    background-color: #04D4F0;
+    width: 400px;
+}
+
+.destacados {
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
