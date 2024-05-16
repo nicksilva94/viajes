@@ -26,6 +26,7 @@ h2 {
 
 body {
     font-family: "Raleway", sans-serif;
+
     
 }
 
@@ -40,7 +41,7 @@ hr {
 .quienes-somos {
     color: white;
     background-color: black;
-    padding: 30px;
+    padding: 30px 100px;
 }
 
 #quienes-somos-texto {
@@ -53,12 +54,19 @@ i {
 }
 
 .destacados {
+    font-family: "Raleway", sans-serif;
     color: white;
     background-color: black;
-    padding: 30px;
+    padding: 30px 100px;
 }
 
 div.col > div.card {
     background-color: #04D4F0;
     color: white;
 }
+
+.contacto {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    background-color: black;
+    padding: 30px 100px;
